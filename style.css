@@ -1,0 +1,41 @@
+html, body{
+  height: 100%
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left top, rgb(108, 9, 237), rgb(255, 0, 64));
+}
+.list{
+  width:890px;
+  height: 255px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 5px solid white;
+  position: relative;
+  top: 3%;
+  }
+div{
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.bn{
+  width: 140px;
+  height: 55px;
+  margin: 2px;
+  padding: 9px;
+  background: none;
+  border-radius: 4px;
+  border: 5px solid white;
+  box-sizing: border-box;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  transition: .5s;
+  cursor: pointer;
+}
+.bn:hover{
+  transform: scale(1.08);
+  transition: .25s 
+}
